@@ -1,29 +1,29 @@
 {
-  "short_name": "W:T",
-  "name": "Watch://Timer",
+  "short_name": "Tabatch",
+  "name": "Tabatch",
   "icons": [
       {
-        "src": "https://nikonosfive.github.io/dev/watch/logo_96.png",
+        "src": "/img/logo_96.png",
         "type": "image/png",
         "sizes": "96x96"
       },
       {
-        "src": "https://nikonosfive.github.io/dev/watch/logo_144.png",
+        "src": "/img/logo_144.png",
         "type": "image/png",
         "sizes": "144x144"
       },
       {
-        "src": "https://nikonosfive.github.io/dev/watch/logo_192.png",
+        "src": "/img/logo_192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "https://nikonosfive.github.io/dev/watch/logo_512.png",
+        "src": "/img/logo_512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
-  "start_url": "https://nikonosfive.github.io/dev/watch/6_00_0.html",
+  "start_url": "https://nikonosfive.github.io/tabatch/index.html",
   "display": "standalone",
   "lang": "ja-JP",
   "theme_color": "#000000",
