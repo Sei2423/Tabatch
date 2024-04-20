@@ -4,14 +4,14 @@
 <head>
   <title>Tabatch</title>
   <meta name=”viewport” content=”width=device-width,initial-scale=1″>
-  <link rel="icon" href="/img/logo.svg" />
-  <link rel="manifest" href="/manifest.json" />
-  <link rel="apple-touch-icon" href="/img/logo.ico">
+  <link rel="icon" href="img/logo.svg" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="img/logo.ico">
   <script>
     const registerServiceWorker = async () => {
       if ("serviceWorker" in navigator) {
         try {
-          const registration = await navigator.serviceWorker.register("/sw.js", {
+          const registration = await navigator.serviceWorker.register("sw.js", {
             scope: "/",
           });
           if (registration.installing) {
@@ -602,10 +602,10 @@
             <li class="dropdown__item">
               <p class="a-contents">
               <p class="yohaku"><a>Color Settings</a>
-                <input type="image" src="/icons/w_b.svg" class="svg-icon" value="LightMode" onClick="changeColor('#000000', '#FFFFFF')" id="osareta">
-                <input type="image" src="/icons/b_w.svg" class="svg-icon" value="DarkMode" onClick="changeColor('#FFFFFF', '#000000')">
-                <input type="image" src="/icons/bl_g.svg" class="svg-icon" value="BIOS Mode" onClick="changeColor('#cacaca','#0000ff')">
-                <input type="image" src="/icons/b_gr.svg" class="svg-icon" value="PRO Mode" onClick="changeColor('#00FF00', '#000000')">
+                <input type="image" src="icons/w_b.svg" class="svg-icon" value="LightMode" onClick="changeColor('#000000', '#FFFFFF')" id="osareta">
+                <input type="image" src="icons/b_w.svg" class="svg-icon" value="DarkMode" onClick="changeColor('#FFFFFF', '#000000')">
+                <input type="image" src="icons/bl_g.svg" class="svg-icon" value="BIOS Mode" onClick="changeColor('#cacaca','#0000ff')">
+                <input type="image" src="icons/b_gr.svg" class="svg-icon" value="PRO Mode" onClick="changeColor('#00FF00', '#000000')">
               </p>
               </p>
             </li>
@@ -2293,7 +2293,7 @@
             document.getElementById('audio').pause();
           }
         </script>
-        <audio loop src="/audio/sekibaku.mp3" loop id="audio">現環境では終了時にアラームが鳴りません</audio>
+        <audio loop src="audio/sekibaku.mp3" loop id="audio">現環境では終了時にアラームが鳴りません</audio>
       </div>
     </div>
   </div>
