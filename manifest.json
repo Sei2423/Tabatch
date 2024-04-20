@@ -3,22 +3,22 @@
   "name": "Tabatch",
   "icons": [
       {
-        "src": "Tabatch/img/logo_96.png",
+        "src": "img/logo_96.png",
         "type": "image/png",
         "sizes": "96x96"
       },
       {
-        "src": "Tabatch/img/logo_144.png",
+        "src": "img/logo_144.png",
         "type": "image/png",
         "sizes": "144x144"
       },
       {
-        "src": "Tabatch/img/logo_192.png",
+        "src": "img/logo_192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "Tabatch/img/logo_512.png",
+        "src": "img/logo_512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
