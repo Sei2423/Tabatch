@@ -7,8 +7,8 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     addResourcesToCache([
       "/",
-      "/dev/watch/6_00_0.html",
-      "/dev/watch/manifest.json"
+      "/Tabatch/index.html",
+      "/Tabatch/manifest.json"
     ]),
   );
 });
