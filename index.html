@@ -12,7 +12,7 @@
       if ("serviceWorker" in navigator) {
         try {
           const registration = await navigator.serviceWorker.register("sw.js", {
-            scope: "/Tabach/",
+            scope: "/Tabatch/",
           });
           if (registration.installing) {
             console.log("Service worker installing");
@@ -173,7 +173,7 @@
         position: relative;
         top: calc(100svh - 5.5rem);
         width: calc(100vw / 3 - 0.3rem);
-        content-align: center;
+        align-content: center;
         height: 5rem;
         line-height: 5rem;
         vertical-align: middle;
@@ -326,8 +326,6 @@
     .card-front {
       transform: rotateY(180deg);
     }
-
-    .card-back {}
 
     .mekuru {
       transform: rotateY(180deg);
