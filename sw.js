@@ -8,7 +8,8 @@ self.addEventListener("install", (event) => {
     addResourcesToCache([
       "/",
       "index.html",
-      "manifest.json"
+      "manifest.json",
+      "CSS/style.css"
     ]),
   );
 });
