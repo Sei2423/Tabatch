@@ -25,8 +25,8 @@
         "sizes": "512x512"
       }
     ],
-  "start_url": "https://nikonosfive.github.io/tabatch/index.html",
-  "display": "standalone",
+  "start_url": "https://nikonosfive.github.io/Tabatch/index.html",
+  "display": "minimal-ui",
   "lang": "ja-JP",
   "theme_color": "#000000",
   "background_color": "#000000",
