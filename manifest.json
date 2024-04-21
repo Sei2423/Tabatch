@@ -1,6 +1,7 @@
 {
   "short_name": "Tabatch",
   "name": "Tabatch by TADR",
+  "description": "A multiple time console tool.",
   "icons": [
       {
         "src": "img/logo_96.png",
