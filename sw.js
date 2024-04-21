@@ -9,7 +9,8 @@ self.addEventListener("install", (event) => {
       "/",
       "index.html",
       "manifest.json",
-      "CSS/style.css"
+      "CSS/style.css",
+      "audio/sekibaku.mp3"
     ]),
   );
 });
