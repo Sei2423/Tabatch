@@ -2,6 +2,7 @@
   "short_name": "Tabatch",
   "name": "Tabatch by TADR",
   "description": "A multiple time console tool.",
+  "version": "6.30",
   "icons": [
       {
         "src": "img/logo_96.png",
