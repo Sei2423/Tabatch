@@ -17,8 +17,8 @@
       opacity: 60%;
     }
     
-    html:has(#monospace:checked){
-      font-family: Monospace;
+    html:has(#Oswald:checked){
+      font-family: "Oswald";
     }
     
     html:has(#notosans:checked){
