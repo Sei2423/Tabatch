@@ -17,8 +17,8 @@
       opacity: 60%;
     }
     
-    html:has(#Oswald:checked){
-      font-family: "Oswald";
+    html:has(#cursive:checked){
+      font-family: "cursive";
     }
     
     html:has(#notosans:checked){
